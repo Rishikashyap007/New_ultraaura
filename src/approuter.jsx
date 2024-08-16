@@ -131,7 +131,7 @@ import StudentQuizDetails from "./components/student/studentQuiz/studentQuizDeta
 
 const Approuter = () => {
   return (
-    <BrowserRouter basename="/react">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
